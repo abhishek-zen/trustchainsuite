@@ -1,0 +1,30 @@
+[
+  {
+    "appName": "Claims Portal",
+    "dataset": "User Profiles",
+    "classification": "Sensitive",
+    "fields": ["Name", "DOB", "PAN"],
+    "functionRole": "Underwriting",
+    "purpose": "Claims Validation",
+    "expiry": "2025-06-30"
+  },
+  {
+    "appName": "TrustAssure",
+    "dataset": "User Profiles",
+    "classification": "PII - High",
+    "fields": [
+      "FullName",
+      "DOB",
+      "Gender",
+      "Email",
+      "Phone Number",
+      "PAN Card Number",
+      "Aadhar Number",
+      "Passport Number",
+      "Address"
+    ],
+    "functionRole": "Originator",
+    "purpose": "Verification, Customer onboarding, Audit Trail,  Learning and Auditing, Record Keeping, Legal Compliance, Security Alert, User Authentication",
+    "expiry": "2025-06-15"
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "Application Name": "TrustAssure",
+    "Dataset Name": "User Profiles",
+    "Data Class": "PII - High",
+    "Fields": [
+      "FullName",
+      "DOB",
+      "Gender",
+      "Email",
+      "Phone Number",
+      "PAN Card Number",
+      "Aadhar Number",
+      "Passport Number",
+      "Address"
+    ],
+    "Access Type": "Owner",
+    "Function Role": "Originator",
+    "Purpose of Access": [
+      "Verification",
+      "Customer onboarding",
+      "Audit Trail",
+      "Learning and Auditing",
+      "Record Keeping",
+      "Legal Compliance",
+      "Security Alert",
+      "User Authentication"
+    ],
+    "Access Token": "eyBillPol.eyJSb2RestrictedlIjoiQ29uc3VtZRestrictedIiLCJleHAiOjE3NDQzNjEyMDB9.Oa4gUS4Ghw8A1IZRestrictedwIk",
+    "Expiry Date": "15-04-2026 05:35",
+    "DPO": "Approved",
+    "CISO": "Pending For Approval",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "KYC Submission",
+    "Dataset Name": "User Profile",
+    "Data Class": "PII - High",
+    "Fields": [
+      "Name",
+      "DOB",
+      "Gender",
+      "Address",
+      "Phone Number",
+      "PAN Card Number",
+      "Aadhar Number",
+      "Passport Number"
+    ],
+    "Access Type": "Owner",
+    "Function Role": "Originator",
+    "Purpose of Access": [
+      "Customer Onboarding & Verification",
+      "Marketing Communictaion",
+      "Business Analytics",
+      "Product Recommendation",
+      "Learning & Training",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold"
+    ],
+    "Access Token": "eyJhbGciOiJIUzI1NiJ9.eyJSb2RestrictedlIjoiQWRtaW4iLCJJc3N1ZRestrictedIiOiJPd25lciIsIlVzZRestrictedJuYW1lIjoiVRestrictedNlciBQcm9maWRestrictedlIiwiZRestrictedhwIjoRestrictedNzQ0MzYRestrictedMDkzLCJpYRestrictedQiOjE3NDQzNjEwOTN9.b7f7-RmrlKKPvbFz9C0gUTkhOa4gUS4Ghw8A1IZRestrictedwIk",
+    "Expiry Date": "05-04-2026 05:26",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Approved",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Insurance Claim",
+    "Dataset Name": "User Profile",
+    "Data Class": "PII - High",
+    "Fields": [
+      "Name",
+      "Address",
+      "Phone Number",
+      "PAN Card Number",
+      "Aadhar Number"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Processor",
+    "Purpose of Access": [
+      "Claim Processing",
+      "Marketing Communictaion",
+      "Business Analytics",
+      "Product Recommendation",
+      "Learning & Training",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold"
+    ],
+    "Access Token": "eyJhbGciOiJIUzI1NiJ9.eyJSb2RestrictedlIjoiVRestrictedNlciIsIklzc3VlciI6IkRhdGEgQ29uc3VtZRestrictedIiLCJVc2VybmFtZSI6IlVzZRestrictedIgUHJvZmlsZSIsImV4cCI6MTc0NDM2MTA5MywiaWF0IjoRestrictedNzQ0MzYRestrictedMDkzfQ.88CsAMAGD64mwSvhgj1mVtq5wMLEYHzC6lAHAV8e_tY",
+    "Expiry Date": "10-04-2026 09:19",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Approved",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Underwriting",
+    "Dataset Name": "User Profile",
+    "Data Class": "PII - High",
+    "Fields": [
+      "Name",
+      "DOB",
+      "Gender",
+      "PAN Card Number",
+      "Aadhar Number"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Evaluator",
+    "Purpose of Access": [
+      "Risk Assessment",
+      "Marketing Communictaion",
+      "Business Analytics",
+      "Product Recommendation",
+      "Learning & Training",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold"
+    ],
+    "Access Token": "eyJhbGciOiJIUzI1NiJ9.eyJSb2RestrictedlIjoiVW5kZRestrictedJ3cml0aW5nQWdlbnQiLCJJc3N1ZRestrictedIiOiJVc2VybWFuYWdlciIsIlVzZRestrictedJuYW1lIjoiVW5kZRestrictedJ3cml0aW5nIFVzZRestrictedIiLCJleHAiOjE3NDQzNjERestrictedMDB9.rzcsRestricted8K4gE9UvuUnzT-8qNGgP5kF5lm8bHHy8FTFlGk",
+    "Expiry Date": "09-04-2026 13:49",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Approved",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Customer Service",
+    "Dataset Name": "User Profile",
+    "Data Class": "PII - Medium",
+    "Fields": [
+      "Name",
+      "Phone Number",
+      "Email",
+      "Address"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Support",
+    "Purpose of Access": [
+      "Customer Query Resolution",
+      "Marketing Communictaion",
+      "Business Analytics",
+      "Product RecommendationLearning & Training",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold"
+    ],
+    "Access Token": "eyJhbGciOiJIUzI1NiJ9.eyJSb2RestrictedlIjoiQ3VzdFNlcnZpY2VFZ2VudCIsIklzc3VlciI6IlVzZRestrictedJBZG1pbiIsIlVzZRestrictedJuYW1lIjoiQ3VzdG9tZRestrictedIgQ2FyZSIsImV4cCI6MTc0NDM2MTERestrictedMCwiaWF0IjoRestrictedNzQ0MzYRestrictedMTEwfQ.yh9lRsP0IrsbAVPkCW7Ey_VQ_qPA-dnmBsoZq1kZ9E8",
+    "Expiry Date": "08-04-2026 02:50",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Approved",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Fraud Investigation",
+    "Dataset Name": "User Profile",
+    "Data Class": "PII - High",
+    "Fields": [
+      "Name",
+      "Address",
+      "PAN Card Number",
+      "Aadhar Number"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Investigator",
+    "Purpose of Access": [
+      "Anomaly Detection",
+      "Marketing Communictaio",
+      "Business Analytics",
+      "Product Recommendation",
+      "Learning & Training",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold"
+    ],
+    "Access Token": "eyFraud.eyJSb2RestrictedlIjoiRnJhdWRDb25zdW1lciIsIlVzZRestrictedIiOiJGb3Jlc2ljaCIsImV4cCI6MTc0NDM2MTE2MH0.Y7nIArfz7p5QerUeF78kRestricted",
+    "Expiry Date": "02-04-2026 21:43",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Claims Management",
+    "Dataset Name": "Claim History",
+    "Data Class": "Sensitive - Health",
+    "Fields": [
+      "Claim ID",
+      "Diagnosis",
+      "Hospital Name",
+      "Bills"
+    ],
+    "Access Type": "Owner",
+    "Function Role": "Originator",
+    "Purpose of Access": [
+      "Claims Submission & Approval",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyClaimOwn.eyJSb2RestrictedlIjoiQ2RestrictedhaW1Pc25yIiwiZRestrictedhwIjoRestrictedNzQ0MzYRestrictedMjAwfQ.Restrictedyz123abcDEF",
+    "Expiry Date": "05-04-2026 18:05",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Underwriting",
+    "Dataset Name": "Claim History",
+    "Data Class": "Sensitive - Health",
+    "Fields": [
+      "Claim ID",
+      "Diagnosis"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Evaluator",
+    "Purpose of Access": [
+      "Claim Underwriting Check",
+      "Learning & Training",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyClaimUWR.eyJSb2RestrictedlIjoiQ29uc3VtZRestrictedIiLCJleHAiOjE3NDQzNjEyMDB9.ABC321defGHI",
+    "Expiry Date": "02-04-2026 09:48",
+    "DPO": "Approved",
+    "CISO": "Pending For Approval",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Underwriting",
+    "Dataset Name": "Risk Profile",
+    "Data Class": "Financial",
+    "Fields": [
+      "Income",
+      "Credit Score",
+      "Employment Status"
+    ],
+    "Access Type": "Owner",
+    "Function Role": "Originator",
+    "Purpose of Access": [
+      "Risk Profiling",
+      "Audit",
+      "Record Keeping & Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyRiskOwn.eyJSb2RestrictedlIjoiT3duZRestrictedIiLCJleHAiOjE3NDQzNjEyMDB9.UVW789ghIjk",
+    "Expiry Date": "05-04-2026 13:09",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Fraud Investigation",
+    "Dataset Name": "Risk Profile",
+    "Data Class": "Financial",
+    "Fields": [
+      "Credit Score",
+      "Employment Status"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Investigator",
+    "Purpose of Access": [
+      "Fraud Detection",
+      "Audit",
+      "Record Keeping",
+      "Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyRiskFraud.eyJSb2RestrictedlIjoiQ29uc3VtZRestrictedIiLCJleHAiOjE3NDQzNjEyMDB9.GHI456klmNOP",
+    "Expiry Date": "10-04-2026 16:13",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Billing & Payments",
+    "Dataset Name": "Payment Info",
+    "Data Class": "Financial - PII",
+    "Fields": [
+      "Account Number",
+      "IFSC",
+      "UPI ID",
+      "PAN Card Number"
+    ],
+    "Access Type": "Owner",
+    "Function Role": "Originator",
+    "Purpose of Access": [
+      "Payment Management",
+      "Fraud Detection & Prevention",
+      "Policy Issuance & Personalization",
+      "Record Keeping",
+      "Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyBillOwn.eyJSb2RestrictedlIjoiQmlsbGluZ0FkbWluIiwiZRestrictedhwIjoRestrictedNzQ0MzYRestrictedMjAwfQ.JKL098rstUVRestricted",
+    "Expiry Date": "08-04-2026 15:30",
+    "DPO": "Pending For Approval",
+    "CISO": "Pending For Approval",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Policy Admin",
+    "Dataset Name": "Payment Info",
+    "Data Class": "Financial - PII",
+    "Fields": [
+      "Account Number",
+      "UPI ID"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Processor",
+    "Purpose of Access": [
+      "Policy Payout Validation",
+      "Fraud Detection & Prevention",
+      "Policy Issuance & Personalization",
+      "Record Keeping & Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyBillPol.eyJSb2RestrictedlIjoiQ29uc3VtZRestrictedIiLCJleHAiOjE3NDQzNjEyMDB9.RST543uvwRestrictedYZ",
+    "Expiry Date": "07-04-2026 04:21",
+    "DPO": "Approved",
+    "CISO": "Pending For Approval",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Analytics/Reporting",
+    "Dataset Name": "User Profile",
+    "Data Class": "PII - High",
+    "Fields": [
+      "Name",
+      "Age",
+      "Gender",
+      "Location",
+      "PAN Card Number"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Observer",
+    "Purpose of Access": [
+      "Trend Analysis & Reporting",
+      "Learning & Training"
+    ],
+    "Access Token": "eyAnalytics1.eyJSb2RestrictedlIjoiQW5hbHlzdCIsImV4cCI6MTc0NDM2MTMwMH0.ANALYTICSPROFILE",
+    "Expiry Date": "02-04-2027 09:01",
+    "DPO": "Rejected",
+    "CISO": "Rejected",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Analytics/Reporting",
+    "Dataset Name": "Claim History",
+    "Data Class": "Sensitive - Health",
+    "Fields": [
+      "Claim ID",
+      "Diagnosis",
+      "Claim Outcome"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Observer",
+    "Purpose of Access": [
+      "Health Cost Insights",
+      "Learning & Training"
+    ],
+    "Access Token": "eyAnalytics2.eyJSb2RestrictedlIjoiQW5hbHlzdCIsImV4cCI6MTc0NDM2MTMwMH0.CLAIMREPORTING",
+    "Expiry Date": "10-04-2027 20:42",
+    "DPO": "Approved",
+    "CISO": "Rejected",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Customer Service",
+    "Dataset Name": "Claim History",
+    "Data Class": "Sensitive - Health",
+    "Fields": [
+      "Claim ID",
+      "Diagnosis",
+      "Status"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Support",
+    "Purpose of Access": [
+      "Customer Follow-up",
+      "Learning & Training"
+    ],
+    "Access Token": "eyCustClaim.eyJSb2RestrictedlIjoiU3VwcG9ydCIsImV4cCI6MTc0NDM2MTMwMH0.SERVICECLAIM",
+    "Expiry Date": "10-04-2027 22:35",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Fraud Investigation",
+    "Dataset Name": "Payment Info",
+    "Data Class": "Financial - PII",
+    "Fields": [
+      "Account Number",
+      "IFSC",
+      "PAN Card Number"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Investigator",
+    "Purpose of Access": [
+      "Suspicious Transaction Check",
+      "Learning & Training"
+    ],
+    "Access Token": "eyFraudPay.eyJSb2RestrictedlIjoiSW52ZRestrictedN0aWdhdG9yIiwiZRestrictedhwIjoRestrictedNzQ0MzYRestrictedMzAwfQ.FRAUDPAYMENTS",
+    "Expiry Date": "02-04-2027 19:28",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Billing & Payments",
+    "Dataset Name": "Risk Profile",
+    "Data Class": "Financial",
+    "Fields": [
+      "Employment Status",
+      "Credit Score"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Processor",
+    "Purpose of Access": [
+      "Premium Adjustment",
+      "Fraud Detection & Prevention",
+      "Record Keeping & Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyBillRisk.eyJSb2RestrictedlIjoiQmlsbGluZ1VzZRestrictedIiLCJleHAiOjE3NDQzNjEzMDB9.BILLRISKREAD",
+    "Expiry Date": "09-04-2027 22:07",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  },
+  {
+    "Application Name": "Billing & Payments",
+    "Dataset Name": "Claim History",
+    "Data Class": "Financial - PII",
+    "Fields": [
+      "Claim ID",
+      "Payout Amount",
+      "Status"
+    ],
+    "Access Type": "Data Consumer",
+    "Function Role": "Processor",
+    "Purpose of Access": [
+      "Disbursement ERestrictedecution",
+      "Fraud Detection & Prevention",
+      "Record Keeping & Legal Hold",
+      "Learning & Training"
+    ],
+    "Access Token": "eyBillClaim.eyJSb2RestrictedlIjoiQmlsbGluZ0NsYWltcyIsImV4cCI6MTc0NDM2MTMwMH0.BILLCLAIMTRACK",
+    "Expiry Date": "02-04-2027 05:35",
+    "DPO": "Approved",
+    "CISO": "Approved",
+    "CDO": "Pending For Approval",
+    "CDOUSER": "cdoOfficeUser",
+    "CISOUSER": "cisoOfficeUser_001",
+    "DPOUSER": "dpoOfficeUser_001"
+  }
+]
